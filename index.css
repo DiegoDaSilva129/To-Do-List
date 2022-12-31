@@ -1,0 +1,74 @@
+html{
+    background: beige;
+    margin: auto;
+    width: 385px
+}
+body{
+    border: solid 2px;
+    margin: auto;
+    padding: 0;
+}
+
+header{
+    background: beige;
+    display: flex;
+    
+}
+
+button{
+    width: 82px;
+    margin: 10px, 10px,10px,10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    background: beige;
+    margin: auto;
+    padding: 0;
+}
+
+form input, form select, {
+    
+    
+}
+
+form button {
+    margin: auto;
+    padding: 5px;
+}
+
+li .project[data-tag="learning code"],.blue {
+  color: blue;
+}
+
+li .project[data-tag="personal work"], .green{
+  color: green;
+}
+
+li .project[data-tag="life"],.purple {
+  color: purple;
+}
+
+li .project[data-tag="job"],.orange {
+  color: orange;
+}
+
+.todo-list {
+    list-style-type: none;
+}
+
+#todo-list{
+    background: beige;
+    margin: auto;
+    align-content: flex-start;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-list {
+    list-style-type: none;
+}

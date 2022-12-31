@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "To-Do List:",
+  "description": "My Simple To-Do List:",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/icon-32.png",
+    "default_title": "My Extension",
+    "default_popup": "popup.html"
+  }
+}

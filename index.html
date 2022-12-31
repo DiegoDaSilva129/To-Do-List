@@ -1,0 +1,31 @@
+<html>
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+      <header>
+        <h1>To-Do List</h1>
+            <ul class="legend">
+                <li class="blue">Learning Code</li>
+                <li class="green">Personal Work</li>
+                <li class="purple">Life</li>
+                <li class="orange">Job</li>
+            </ul>
+        </header> 
+    <form id="form">
+      <input type="text" id="project" placeholder="Project Name">
+      <input type="text" id="item" placeholder="Project Description">
+      <select id="tag-select">
+        <option value="learning code">Learning Code</option>
+        <option value="personal work">Personal Work</option>
+        <option value="life">Life</option>
+        <option value="job">Job</option>
+      </select>
+      <button type="submit">Add</button>
+      <button type="button" id="remove">Remove</button>
+    </form>
+    <ul id="todo-list"></ul>
+     <script src="index.js"></script>
+  </body>
+</html>
